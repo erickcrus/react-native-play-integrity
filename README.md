@@ -30,7 +30,7 @@
 
 ## Usage
 ```javascript
-import PlayIntegrity from 'react-native-google-play-integrity';
+import PlayIntegrity from '@erickcrus/react-native-google-play-integrity';
 
 // Checks if Google Play Integrity API is available
 const isAvailable = await PlayIntegrity.isPlayIntegrityAvailable();
