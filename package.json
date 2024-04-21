@@ -1,6 +1,7 @@
 {
   "name": "@erickcrus/react-native-play-integrity",
   "version": "0.0.1",
+  "private": false,
   "description": "React Native implementation for Google's Play Integrity API",
   "main": "src/index.js",
   "repository": {
@@ -14,12 +15,20 @@
     "react-native",
     "Play Integrity API"
   ],
-  "author": "Erick Crus <erickcrus@brasilbitcoin.com.br>",
+  "author": {
+    "name": "Erick Crus",
+    "email": "erickcrus@brasilbitcoin.com.br",
+    "url": "http://brasilbitcoin.com.br"
+  },
   "license": "MIT",
   "homepage": "https://github.com/erickcrus/react-native-play-integrity",
   "bugs": "https://github.com/erickcrus/react-native-play-integrity/issues",
   "peerDependencies": {
     "react-native": ">=0.50"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "types": "types/index.d.ts"
 }
