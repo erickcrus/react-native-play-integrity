@@ -1,6 +1,6 @@
 {
   "name": "@erickcrus/react-native-play-integrity",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "description": "React Native implementation for Google's Play Integrity API",
   "main": "src/index.js",
