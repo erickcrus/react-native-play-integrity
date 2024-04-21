@@ -3,15 +3,11 @@
 
 ## Getting started
 
-`$ npm install react-native-google-play-integrity --save`
-
-or
-
-`$ yarn add react-native-google-play-integrity`
+`$ npm install @erickcrus/react-native-google-play-integrity --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-google-play-integrity`
+`$ react-native link @erickcrus/react-native-google-play-integrity`
 
 ### Manual installation
 
@@ -23,12 +19,12 @@ or
   - Add `new RNGooglePlayIntegrityPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
-  	include ':react-native-google-play-integrity'
-  	project(':react-native-google-play-integrity').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-google-play-integrity/android')
+  	include ':@erickcrus/react-native-google-play-integrity'
+  	project(':@erickcrus/react-native-google-play-integrity').projectDir = new File(rootProject.projectDir, 	'../node_modules/@erickcrus/react-native-google-play-integrity/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
-    implementation project(':react-native-google-play-integrity')
+    implementation project(':@erickcrus/react-native-google-play-integrity')
   	```
 
 

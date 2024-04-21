@@ -1,11 +1,11 @@
 {
-  "name": "react-native-google-play-integrity",
-  "version": "1.0.0",
+  "name": "@erickcrus/react-native-play-integrity",
+  "version": "0.0.1",
   "description": "React Native implementation for Google's Play Integrity API",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kedros-as/react-native-google-play-integrity.git"
+    "url": "git+https://github.com/erickcrus/react-native-play-integrity.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,10 +14,10 @@
     "react-native",
     "Play Integrity API"
   ],
-  "author": "Rastislav Krsak <rastislav.krsak@kedros.sk>",
+  "author": "Erick Crus <erickcrus@brasilbitcoin.com.br>",
   "license": "MIT",
-  "homepage": "https://github.com/kedros-as/react-native-google-play-integrity",
-  "bugs": "https://github.com/kedros-as/react-native-google-play-integrity/issues",
+  "homepage": "https://github.com/erickcrus/react-native-play-integrity",
+  "bugs": "https://github.com/erickcrus/react-native-play-integrity/issues",
   "peerDependencies": {
     "react-native": ">=0.50"
   },

@@ -37,6 +37,24 @@ public class RNGooglePlayIntegrityModule extends ReactContextBaseJavaModule {
     }
 
     /**
+     * Prepare Integrity Token
+     * é necessário chamar a API Integrity para preparar o provedor de token de
+     * integridade bem antes de receber o veredito de integridade. Por exemplo, você
+     * pode fazer isso quando seu app for iniciado ou em segundo plano antes de
+     * precisar do veredito de integridade.
+     *
+     * @param cloudProjectNumber
+     * @param promise
+     */
+    @ReactMethod
+    public void prepareIntegrityToken(
+            final String cloudProjectNumber,
+            final Promise promise ) {
+        IntegrityManager integrityManager =
+                IntegrityManagerFactory.create(this.baseContext)
+    }
+
+    /**
      * Checks if Google Play Integrity API is available
      * See https://developer.android.com/google/play/integrity/overview
      *
