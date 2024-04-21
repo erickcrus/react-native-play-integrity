@@ -51,7 +51,7 @@ public class RNGooglePlayIntegrityModule extends ReactContextBaseJavaModule {
             final String cloudProjectNumber,
             final Promise promise ) {
         IntegrityManager integrityManager =
-                IntegrityManagerFactory.create(this.baseContext)
+                IntegrityManagerFactory.create(this.baseContext);
     }
 
     /**
